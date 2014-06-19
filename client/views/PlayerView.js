@@ -23,8 +23,6 @@ var PlayerView = Backbone.View.extend({
 
   playNext: function(){
     this.model.dequeue();
-    //call play first
-
   }
 
 });

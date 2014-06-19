@@ -2,6 +2,16 @@
 var SongQueue = Songs.extend({
 
   initialize: function(){
+
+
+
+
+
+  },
+
+  playFirst: function(){
+    this.models[0].play();
   }
+
 
 });

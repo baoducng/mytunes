@@ -4,6 +4,11 @@ var SongQueueView = Backbone.View.extend({
   initialize: function() {
   },
 
+  events:{
+    "dequeue":
+
+  },
+
   render: function() {
     return this.$el;
   }

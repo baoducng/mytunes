@@ -8,7 +8,7 @@ var SongModel = Backbone.Model.extend({
     //play is a default method on the html tag
     //TODO: where can we access this play method?
   },
-   enqueue: function(){
+  enqueue: function(){
     this.trigger('enqueue',this);
   },
 
